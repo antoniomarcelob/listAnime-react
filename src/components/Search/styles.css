@@ -3,13 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .search-container input {
     box-sizing: content-box;
     
     height: 12px;
-    /* width: 400px; */
+    
     border: 1px solid rgb(182, 172, 172);
     outline: none;
     border-radius: 10px;
@@ -17,7 +18,6 @@
 
     color: black;
 
-    
 }
 
 .search-container input::placeholder {
