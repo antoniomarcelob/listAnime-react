@@ -7,9 +7,10 @@ git clone https://github.com/antoniomarcelo12/listAnime-react.git
 
 ### Inside the listAnime-react folder, run the command
 npm install
-### to install dependencies
+#### to install dependencies
 
-### then run the command 
+## Then 
+#### run the command 
 npm run dev
 
 ## or just visit
