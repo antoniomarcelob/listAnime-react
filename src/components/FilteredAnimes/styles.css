@@ -1,0 +1,38 @@
+
+.filtered-animes ul {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+.filtered-animes ul h3 {
+    text-align: center;
+}
+
+.filtered-animes li {
+    width: 300px;
+    height: 400px;
+    transform: scale(.8);
+    transition: all ease .5s;
+    margin-bottom: 100px;
+}
+
+.filtered-animes li:hover {
+
+    transform: scale(1);
+}
+
+.filtered-animes ul img {
+    width: 100%;
+}
+
+.spinner {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
