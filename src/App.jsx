@@ -15,7 +15,7 @@ function App() {
   
 
   useEffect(() => {
-    
+    setSearchData([])
     if(searchText) {
       fetch(`https://api.jikan.moe/v4/anime?letter=${searchText}`)
       .then(resp => resp.json())
