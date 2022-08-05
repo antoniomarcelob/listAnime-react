@@ -45,8 +45,9 @@ span.carousel-control-prev-icon {
     }
 
     .featured-anime-container {
-        margin-top: 130px;
-        height: calc(80vh - 50px - 80px);
+        margin-top: -30px;
+
+        height: auto;
 
     }
     
